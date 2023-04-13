@@ -102,7 +102,7 @@ export default function Setting(props: {
         <hr class="mt-2 bg-slate-5 bg-op-15 border-none h-1px"></hr>
       </Show>
       <div class="mt-2 flex items-center justify-between">
-        <div
+{/*        <div
           class="flex items-center cursor-pointer hover:text-slate-3 "
           onClick={() => {
             setShown(!shown())
@@ -110,7 +110,7 @@ export default function Setting(props: {
         >
           <button class="i-carbon:settings" />
           <span ml-1>设置</span>
-        </div>
+        </div>*/}
         <div class="flex">
           <div
             class="flex items-center cursor-pointer hover:text-slate-3 "
