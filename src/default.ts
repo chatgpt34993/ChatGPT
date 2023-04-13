@@ -7,4 +7,4 @@ export const defaultSetting = {
 }
 
 export const defaultMessage = `
-有任何问题可在微信交流群留言`
+有任何问题在微信交流群留言 `
