@@ -31,7 +31,7 @@ export default function Setting(props: {
             }}
           />
         </SettingItem>
-        <SettingItem icon="i-carbon:user-online" label="系统角色指令">
+{/*        <SettingItem icon="i-carbon:user-online" label="系统角色指令">
           <input
             type="text"
             value={props.setting().systemRule}
@@ -60,8 +60,8 @@ export default function Setting(props: {
               })
             }}
           />
-        </SettingItem>
-        <SettingItem
+        </SettingItem>*/}
+{/*        <SettingItem
           icon="i-carbon:save-image"
           label="记录对话内容，刷新不会消失"
         >
@@ -79,8 +79,8 @@ export default function Setting(props: {
             />
             <div class="w-9 h-5 bg-slate bg-op-15 peer-focus:outline-none peer-focus:ring-0  rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-slate"></div>
           </label>
-        </SettingItem>
-        <SettingItem
+        </SettingItem>*/}
+{/*        <SettingItem
           icon="i-carbon:3d-curve-auto-colon"
           label="开启连续对话，将加倍消耗 Token"
         >
@@ -98,11 +98,11 @@ export default function Setting(props: {
             />
             <div class="w-9 h-5 bg-slate bg-op-15 peer-focus:outline-none peer-focus:ring-0  rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-slate"></div>
           </label>
-        </SettingItem>
+        </SettingItem>*/}
         <hr class="mt-2 bg-slate-5 bg-op-15 border-none h-1px"></hr>
       </Show>
       <div class="mt-2 flex items-center justify-between">
-{/*        <div
+{        <div
           class="flex items-center cursor-pointer hover:text-slate-3 "
           onClick={() => {
             setShown(!shown())
@@ -110,7 +110,7 @@ export default function Setting(props: {
         >
           <button class="i-carbon:settings" />
           <span ml-1>设置</span>
-        </div>*/}
+        </div>}
         <div class="flex">
           <div
             class="flex items-center cursor-pointer hover:text-slate-3 "
